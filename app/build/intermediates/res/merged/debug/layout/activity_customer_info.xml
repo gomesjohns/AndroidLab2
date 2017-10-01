@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gomes.john.johngomes_comp304lab2.CustomerInfoActivity">
+
+    <TextView
+        android:id="@+id/customerInfoTitle"
+        style="@style/textSizeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/custInfoTitle"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/custNameEditText"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/hintName"
+        android:inputType="textPersonName"
+        android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz "
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customerInfoTitle" />
+
+    <EditText
+        android:id="@+id/custAddressEditText"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/hintAddress"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custNameEditText" />
+
+    <EditText
+        android:id="@+id/creditCardEditText"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/hintCardNum"
+        android:inputType="number"
+        android:maxLength="16"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/postalCodeEditText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/hintPostalCode"
+        android:maxLength="6"
+        android:inputType="textPostalAddress"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custAddressEditText" />
+
+    <EditText
+        android:id="@+id/cityEditText"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/hintCity"
+        android:maxLength="20"
+        android:inputType="textPostalAddress"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custAddressEditText" />
+
+
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/orderBtnTitle"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Spinner
+        android:id="@+id/custMonthExpSpinner"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:prompt="@string/monthPickerText"
+        app:layout_constraintLeft_toLeftOf="@+id/creditCardEditText"
+        app:layout_constraintTop_toBottomOf="@+id/creditCardEditText" />
+
+    <Spinner
+        android:id="@+id/custYearExpirySpinner"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="217dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintRight_toRightOf="@+id/creditCardEditText"
+        app:layout_constraintTop_toBottomOf="@+id/creditCardEditText" />
+
+    <Spinner
+        android:id="@+id/custFavResSpinner"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuisineTextviewAuto" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/billingInfoTitle"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postalCodeEditText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/favouriteInfoTitle"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custMonthExpSpinner" />
+
+    <AutoCompleteTextView
+        android:id="@+id/cuisineTextviewAuto"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/favouriteCuisine"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</android.support.constraint.ConstraintLayout>

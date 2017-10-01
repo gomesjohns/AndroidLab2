@@ -1,0 +1,220 @@
+<resources>
+    //Home Screen
+    <string name="app_name">Navsas</string>
+    <string name="logo">Navsas Logo</string>
+    <string name="button">ENTER</string>
+
+    //Cuisine Screen
+    <string name="americanCuisineRadioButton">American Cuisine</string>
+    <string name="italianCuisineRadioButton">Italian Cuisine</string>
+    <string name="chineseCuisineRadioButton">Chinese Cuisine</string>
+    <string name="indianCuisineRadioButton">Indian Cuisine</string>
+    <string name="foodButton">NEXT</string>
+    <string name="title_activity_food_menu">Food Menu</string>
+    <string name="menuOpen">Open Menu</string>
+    <string name="menuClose">Close Menu</string>
+
+
+    //Customer Info Screen
+    <string name="custInfoTitle">Customer Information</string>
+    <string name="billingInfoTitle">Billing Information</string>
+    <string name="favouriteInfoTitle">Favourites</string>
+
+    <string name="hintName">Name</string>
+    <string name="hintAddress">Address</string>
+    <string name="hintPostalCode">Postal Code</string>
+    <string name="hintCity">City</string>
+    <string name="hintCardNum">Credit Card Number</string>
+    <string name="favouriteCuisine">Favourite Cuisine</string>
+
+    <string-array name="months">
+        <item>Month</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>Year</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
+
+    <string name="monthPickerText">MM</string>
+
+    <string name="orderBtnTitle">Order</string>
+
+
+
+    //Check-out screen
+    <string name="activityTitleCheckout">Check-out</string>
+    <string name="favRestTitle">Favourite Restaurant</string>
+    <string name="foodOrderedTitle">Food Items</string>
+
+
+    //Food Menu Screen
+
+    <string name="foodActivityTitle">Food Menu</string>
+    <string-array name="restNames">
+        <item>Favourite Restaurant</item>
+        <item>Restaurant 1</item>
+        <item>Restaurant 2</item>
+        <item>Restaurant 3</item>
+        <item>Restaurant 4</item>
+        <item>Restaurant 5</item>
+        <item>Restaurant 6</item>
+        <item>Restaurant 7</item>
+        <item>Restaurant 8</item>
+        <item>Restaurant 9</item>
+        <item>Restaurant 10</item>
+        <item>Restaurant 11</item>
+        <item>Restaurant 12</item>
+        <item>Restaurant 13</item>
+        <item>Restaurant 14</item>
+        <item>Restaurant 15</item>
+        <item>Restaurant 16</item>
+    </string-array>
+
+    <string-array name="cuisineNames">
+        <item>American</item>
+        <item>Italian</item>
+        <item>Chinese</item>
+        <item>Indian</item>
+    </string-array>
+
+
+    <string name="rest1Name">Restaurant 1</string>
+    <string name="rest2Name">Restaurant 2</string>
+    <string name="rest3Name">Restaurant 3</string>
+    <string name="rest4Name">Restaurant 4</string>
+    <string name="rest5Name">Restaurant 5</string>
+    <string name="rest6Name">Restaurant 6</string>
+    <string name="rest7Name">Restaurant 7</string>
+    <string name="rest8Name">Restaurant 8</string>
+    <string name="rest9Name">Restaurant 9</string>
+    <string name="rest10Name">Restaurant 10</string>
+    <string name="rest11Name">Restaurant 11</string>
+    <string name="rest12Name">Restaurant 12</string>
+    <string name="rest13Name">Restaurant 13</string>
+    <string name="rest14Name">Restaurant 14</string>
+    <string name="rest15Name">Restaurant 15</string>
+    <string name="rest16Name">Restaurant 16</string>
+
+    //American Cuisine
+    //Restaurant 1
+    <string name="americanCus1">Fried Fish</string>
+    <string name="americanCus2">Hamburger</string>
+    <string name="americanCus3">Cheese Dog</string>
+    <string name="americanCus4">Chicken Fingers</string>
+
+    Restaurant 2
+    <string name="americanCus5">Bull Roast</string>
+    <string name="americanCus6">Meat Loaf</string>
+    <string name="americanCus7">Maple Bacon Donut</string>
+    <string name="americanCus8">Toasted Strudel</string>
+
+    Restaurant 3
+    <string name="americanCus9">Pastrami</string>
+    <string name="americanCus10">Lobster Roll</string>
+    <string name="americanCus11">Onion Ring</string>
+    <string name="americanCus12">Pasta Salad</string>
+
+    Restaurant 4
+    <string name="americanCus13">City Chiken</string>
+    <string name="americanCus14">Creamed Corn</string>
+    <string name="americanCus15">Eggs on toast</string>
+    <string name="americanCus16">Choco pie</string>
+
+
+    //Italian Cuisine
+    //Restaurant 1
+    <string name="italianCus1">Deep Fried Pizza</string>
+    <string name="italianCus2">Farinata</string>
+    <string name="italianCus3">Pandoro</string>
+    <string name="italianCus4">Tortano</string>
+
+    Restaurant 2
+    <string name="italianCus5">Testarolo</string>
+    <string name="italianCus6">Pane Pugliese</string>
+    <string name="italianCus7">Focaccia</string>
+    <string name="italianCus8">Pane Toscano</string>
+
+    Restaurant 3
+    <string name="italianCus9">Chitarra</string>
+    <string name="italianCus10">Eliche</string>
+    <string name="italianCus11">Gnocchi</string>
+    <string name="italianCus12">Ziti</string>
+
+    Restaurant 4
+    <string name="italianCus13">Pasta Al Pesto</string>
+    <string name="italianCus14">Carbonara</string>
+    <string name="italianCus15">Lasagne</string>
+    <string name="italianCus16">Orzo</string>
+
+
+    //Chinese Cuisine
+    //Restaurant 1
+    <string name="chineseCus1">Ramen</string>
+    <string name="chineseCus2">Noodle</string>
+    <string name="chineseCus3">Sushi</string>
+    <string name="chineseCus4">Dim Sum</string>
+
+    Restaurant 2
+    <string name="chineseCus5">Jiaozi</string>
+    <string name="chineseCus6">Fried Rice</string>
+    <string name="chineseCus7">Soba</string>
+    <string name="chineseCus8">Sushi</string>
+
+    Restaurant 3
+    <string name="chineseCus9">Chow Mein</string>
+    <string name="chineseCus10">Wonton</string>
+    <string name="chineseCus11">Yakiniku</string>
+    <string name="chineseCus12">Udon</string>
+
+    Restaurant 4
+    <string name="chineseCus13">Lo Mein</string>
+    <string name="chineseCus14">Orange Chiken</string>
+    <string name="chineseCus15">Sweet and Sour</string>
+    <string name="chineseCus16">Stir Fry</string>
+
+
+    /Indian Cuisine
+    //Restaurant 1
+    <string name="indianCus1">Samosa</string>
+    <string name="indianCus2">Biryani</string>
+    <string name="indianCus3">Chiken Tikka Masala</string>
+    <string name="indianCus4">Tandoori Chiken</string>
+
+    Restaurant 2
+    <string name="indianCus5">Butter Chiken</string>
+    <string name="indianCus6">Roti</string>
+    <string name="indianCus7">Panipuri</string>
+    <string name="indianCus8">Jalebi</string>
+
+    Restaurant 3
+    <string name="indianCus9">Palak Paneer</string>
+    <string name="indianCus10">Beef Biryani</string>
+    <string name="indianCus11">Momo</string>
+    <string name="indianCus12">Galab Jamun</string>
+
+    Restaurant 4
+    <string name="indianCus13">Naan</string>
+    <string name="indianCus14">Chana Masala</string>
+    <string name="indianCus15">Paneer Tikka</string>
+    <string name="indianCus16">Korma</string>
+
+
+</resources>

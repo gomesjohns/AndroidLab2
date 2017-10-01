@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c2531a7fabc9277f8c98e32497360e30850fac3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.android\build-cache\368989d22d40f90483304ba168921675a309e630\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\build\intermediates\pre-dexed\debug\classes_6ecc6b01d98c13b01a2b3c5d808cfd5caa9aa1bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.android\build-cache\264525c4ab4d3d1347175db992820760fdb15cd5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\build\intermediates\pre-dexed\debug\classes_a999748b113e36c1edd71055f50e596e82a23635.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ef1eb50df2dc066d103639f82226af303f715ae4">
+        <dex dex="C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_03dc3faba59e8dbe9faee6ecb97b7416f354e6c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.android\build-cache\310958d6e71b90d1ff1386e31e2f4ecbfce0da46\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\build\intermediates\pre-dexed\debug\classes_bc47a7366e6940cc9cf664f215c388c9d563ccf0.jar" />
+    </item>
+
+</items>

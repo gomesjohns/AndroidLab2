@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:5:5-41:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\John\.android\build-cache\27dd3764ad8de4c8d408fbfffabdac63f56779a0\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\John\.android\build-cache\368989d22d40f90483304ba168921675a309e630\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\John\.android\build-cache\dce220aac4fcd6a02190e35c3290591785e10384\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\John\.android\build-cache\1491495a15e8f0b2a27e2c8c39b2b840ed0dde98\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\John\.android\build-cache\7f21c897132e546bce002e00797800319c5558f3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\John\.android\build-cache\264525c4ab4d3d1347175db992820760fdb15cd5\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\John\.android\build-cache\d445a441046a07253f696bae5d417e96d619fba5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\John\.android\build-cache\552ef6df20b7dd96f73a33454d5d80f5ff70a6ee\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\John\.android\build-cache\b0c69a609e6f962fdbd41d1038399c22c0c5236a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\John\.android\build-cache\04c125ce8005aaac2a49a9d560c6110993ba38c0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\John\.android\build-cache\c72911356c76b7f52afcb2129920396968234bea\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\John\.android\build-cache\63bdcebb6eaf0cc4277b5f8f3cf57a9e2a7441a4\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:11:9-40
+activity#gomes.john.johngomes_comp304lab2.MainActivity
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:12:9-17:20
+	android:theme
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:12:48-86
+	android:name
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:15:27-74
+activity#gomes.john.johngomes_comp304lab2.CuisinesTypeActivity
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:18:9-96
+	android:theme
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:18:56-94
+	android:name
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:18:19-55
+activity#gomes.john.johngomes_comp304lab2.FoodMenuActivity
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:parentActivityName
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:21:13-63
+	android:name
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:20:13-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:22:13-24:57
+	android:value
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:24:17-54
+	android:name
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:23:17-63
+activity#gomes.john.johngomes_comp304lab2.CustomerInfoActivity
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:26:9-33:20
+	android:parentActivityName
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:27:13-49
+activity#gomes.john.johngomes_comp304lab2.CheckOutActivity
+ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:34:9-40:20
+	android:parentActivityName
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:36:13-63
+	android:name
+		ADDED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml:35:13-45
+uses-sdk
+INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\John\.android\build-cache\27dd3764ad8de4c8d408fbfffabdac63f56779a0\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\John\.android\build-cache\368989d22d40f90483304ba168921675a309e630\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\John\.android\build-cache\dce220aac4fcd6a02190e35c3290591785e10384\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\John\.android\build-cache\1491495a15e8f0b2a27e2c8c39b2b840ed0dde98\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\John\.android\build-cache\7f21c897132e546bce002e00797800319c5558f3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\John\.android\build-cache\310958d6e71b90d1ff1386e31e2f4ecbfce0da46\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\John\.android\build-cache\264525c4ab4d3d1347175db992820760fdb15cd5\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\John\.android\build-cache\d445a441046a07253f696bae5d417e96d619fba5\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\John\.android\build-cache\552ef6df20b7dd96f73a33454d5d80f5ff70a6ee\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\John\.android\build-cache\b0c69a609e6f962fdbd41d1038399c22c0c5236a\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\John\.android\build-cache\04c125ce8005aaac2a49a9d560c6110993ba38c0\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\John\.android\build-cache\c72911356c76b7f52afcb2129920396968234bea\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\John\.android\build-cache\63bdcebb6eaf0cc4277b5f8f3cf57a9e2a7441a4\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\John\.android\build-cache\368989d22d40f90483304ba168921675a309e630\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\John\Desktop\JohnGomes_COMP304Lab2\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\John\.android\build-cache\368989d22d40f90483304ba168921675a309e630\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\John\.android\build-cache\dce220aac4fcd6a02190e35c3290591785e10384\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\John\.android\build-cache\1491495a15e8f0b2a27e2c8c39b2b840ed0dde98\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\John\.android\build-cache\7f21c897132e546bce002e00797800319c5558f3\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\John\.android\build-cache\310958d6e71b90d1ff1386e31e2f4ecbfce0da46\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\John\.android\build-cache\264525c4ab4d3d1347175db992820760fdb15cd5\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\John\.android\build-cache\d445a441046a07253f696bae5d417e96d619fba5\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\John\.android\build-cache\552ef6df20b7dd96f73a33454d5d80f5ff70a6ee\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\John\.android\build-cache\b0c69a609e6f962fdbd41d1038399c22c0c5236a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\John\.android\build-cache\04c125ce8005aaac2a49a9d560c6110993ba38c0\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\John\.android\build-cache\c72911356c76b7f52afcb2129920396968234bea\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\John\.android\build-cache\63bdcebb6eaf0cc4277b5f8f3cf57a9e2a7441a4\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\John\.android\build-cache\368989d22d40f90483304ba168921675a309e630\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\John\.android\build-cache\368989d22d40f90483304ba168921675a309e630\output\AndroidManifest.xml:26:9-47

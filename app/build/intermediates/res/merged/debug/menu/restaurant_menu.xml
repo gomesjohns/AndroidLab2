@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_group1"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_res1"
+            android:title="@string/rest1Name" />
+
+        <item
+            android:id="@+id/nav_res2"
+            android:title="@string/rest2Name" />
+
+        <item
+            android:id="@+id/nav_res3"
+            android:title="@string/rest3Name" />
+
+        <item
+            android:id="@+id/nav_res4"
+            android:title="@string/rest4Name" />
+
+    </group>
+
+    <group android:id="@+id/menu_group2"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_res5"
+            android:title="@string/rest5Name" />
+
+        <item
+            android:id="@+id/nav_res6"
+            android:title="@string/rest6Name" />
+
+        <item
+            android:id="@+id/nav_res7"
+            android:title="@string/rest7Name" />
+
+        <item
+            android:id="@+id/nav_res8"
+            android:title="@string/rest8Name" />
+
+    </group>
+
+    <group android:id="@+id/menu_group3"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_res9"
+            android:title="@string/rest9Name" />
+
+        <item
+            android:id="@+id/nav_res10"
+            android:title="@string/rest10Name" />
+
+        <item android:id="@+id/nav_res11"
+            android:title= "@string/rest11Name"/>
+
+        <item android:id="@+id/nav_res12"
+            android:title= "@string/rest12Name"/>
+
+    </group>
+
+    <group android:id="@+id/menu_group4"
+        android:visible="false">
+
+        <item android:id="@+id/nav_res13"
+            android:title= "@string/rest13Name"/>
+
+        <item android:id="@+id/nav_res14"
+            android:title= "@string/rest14Name"/>
+
+        <item android:id="@+id/nav_res15"
+            android:title= "@string/rest15Name"/>
+
+        <item android:id="@+id/nav_res16"
+            android:title= "@string/rest16Name"/>
+
+    </group>
+
+
+</menu>
